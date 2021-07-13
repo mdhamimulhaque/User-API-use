@@ -27,6 +27,10 @@
             background-color:blueviolet;
             color:#fff;
         }
+        .myHeading{
+            margin-top: 10px;
+            
+        }
        
     </style>
     
@@ -82,7 +86,7 @@
             const details = document.querySelector("#user-details");
             details.innerHTML =
              `<div class="info-box"
-                <h2>Name :${data.name}</h2>
+                <h2 class="myHeading">Name : ${data.name}</h2>
                 <h5>Email : ${data.email}</h5>
                 <p>Phone : ${data.phone}</p>
             </div>`
